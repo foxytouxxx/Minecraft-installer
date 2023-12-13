@@ -3,7 +3,7 @@
 # Clear the screen
 clear
 
-# Do Not Change !!!! (Credits)
+# LEAVE CREDITS
 echo "
 #######################################################################################
 #
@@ -25,17 +25,25 @@ wget -O server.jar $server_url
 sudo apt-get update
 sudo apt-get install openjdk-17-jdk -y
 
-# Ask the user for the amount of RAM to allocate
-read -p "How much RAM would you like to allocate to the Minecraft server (in GB)? " ram_amount
+# Ask the user if they accept the Minecraft EULA
+read -p "Do you accept the Minecraft EULA? (Type 'yes' or 'y' to accept): " eula_acceptance
 
-# Modify the Java command with the user's response
-java_command="java -Xms${ram_amount}G -Xmx${ram_amount}G -jar server.jar nogui"
+# Check if the user accepted the EULA
+if [[ "$eula_acceptance" =~ ^[Yy][Ee][Ss]?$ ]]; then
+    # Ask the user for the amount of RAM to allocate
+    read -p "How much RAM would you like to allocate to the Minecraft server (in GB)? " ram_amount
 
-# Launch the Minecraft server
-$java_command
+    # Modify the Java command with the user's response
+    java_command="java -Xms${ram_amount}G -Xmx${ram_amount}G -jar server.jar nogui"
 
-# Modify the eula.txt file to set 'true'
-echo "eula=true" > eula.txt
+    # Launch the Minecraft server
+    $java_command
 
-# Restart the Minecraft server with the new configurations
-$java_command
+    # Modify the eula.txt file to set 'true'
+    echo "eula=true" > eula.txt
+
+    # Restart the Minecraft server with the new configurations
+    $java_command
+else
+    echo "You must accept the Minecraft EULA to proceed. Aborting."
+fi
