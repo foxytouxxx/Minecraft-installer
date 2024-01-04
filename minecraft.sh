@@ -16,10 +16,10 @@ echo "
 
 # Ask the user for the Minecraft server script URL
 read -p "Please enter the URL of the Minecraft server script (press Enter to use the default URL): " server_url
-server_url=${server_url:-"https://piston-data.mojang.com/v1/objects/5b868151bd02b41319f54c8d4061b8cae84e665c/server.jar"}
+server_url=${server_url:-"https://api.papermc.io/v2/projects/paper/versions/1.20.4/builds/372/downloads/paper-1.20.4-372.jar"}
 
 # Download the Minecraft server script
-wget -O server.jar $server_url
+wget -O paper-1.20.4-372 $server_url
 
 # Download openjdk-17-jdk
 sudo apt-get update
