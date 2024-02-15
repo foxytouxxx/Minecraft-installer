@@ -1,0 +1,13 @@
+AvatarState:
+  Combustion:
+    ChargeTime: 0
+  Bolt:
+    Cooldown: 0
+    ChargeTime: 0
+  EarthLine:
+    Damage: 10
+  IceCrawl:
+    Range: 48
+  EarthSmash:
+    ChargeTime: 0
+    Cooldown: 0

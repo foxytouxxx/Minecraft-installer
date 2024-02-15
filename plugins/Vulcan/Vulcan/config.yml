@@ -1,0 +1,59 @@
+Vulcan:
+  Earth:
+    LavaStream:
+      Damage: 2.0
+      Range: 20.0
+      Hitbox: 1.0
+      Speed: 1.0
+      SourceRange: 10.0
+      Cooldown: 3000
+      Radius: 2.5
+    Erupt:
+      Range: 20.0
+      Hitbox: 1.0
+      Speed: 1.5
+      Cooldown: 3000
+      Radius: 4.0
+      Duration: 5000
+      Height: 6.0
+      SourceRange: 10.0
+      FallingBlocks: 5
+      Damage: 0.5
+      Shots: 4
+    IgneousShift:
+      LavaCoolRange: 10.0
+      LavaCoolCooldown: 3000
+      LavaCoolRadius: 2.0
+      LavaCoolDuration: 4000
+      LavaPoolRange: 10.0
+      LavaPoolCooldown: 3000
+      LavaPoolRadius: 2.0
+      LavaPoolDuration: 2000
+    LavaTendril:
+      Damage: 2.0
+      Range: 20.0
+      Hitbox: 1.0
+      Speed: 1.0
+      SourceRange: 10.0
+      Cooldown: 3000
+      RiseDuration: 250
+      GravityPerSecond: 1.0
+    LavaLine:
+      Damage: 2.0
+      Range: 20.0
+      Hitbox: 1.5
+      Speed: 1.0
+      SourceRange: 10.0
+      Cooldown: 3000
+      Width: 1.5
+      Duration: 3000
+    MagmaMelt:
+      Damage: 2.0
+      MaxHeight: 30.0
+      Hitbox: 1.0
+      Speed: 1.0
+      Cooldown: 3000
+      Radius: 4.0
+      DurationMagma: 5000
+      TimeTillMaxRadius: 5000
+      TimeTillRevert: 60000

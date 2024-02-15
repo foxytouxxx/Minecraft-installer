@@ -1,0 +1,52 @@
+Dragon:
+  DragonsBreath:
+    Cooldown: 5000
+    ChargeTime: 1000
+    Duration: 10000
+    Damage: 0.5
+    Range: 6.0
+    FireHelixes: 2
+  DragonsJet:
+    Cooldown: 10000
+    ManaTotal: 50.0
+    ManaRegenPerSecond: 2.0
+    ManaUseHoverPerSecond: 4.0
+    ManaUseLeap: 10.0
+    ManaUseSlowFlyPerSecond: 5.0
+    ManaUseFastFlyPerSecond: 7.0
+    LeapSpeed: 5.0
+    SlowFlySpeed: 0.7
+    FastFlySpeed: 1.0
+  DragonsComet:
+    Cooldown: 5000
+    ChargeTime: 2000
+    CometRadius: 3.0
+    ChargeRadius: 5.0
+    HitboxRadius: 3.5
+    Speed: 1.5
+    Damage: 2.5
+    Knockback: 2.0
+    Range: 40.0
+  DragonsScales:
+    Cooldown: 2000
+    Duration: 3000
+    ClickRadius: 2.0
+    ShiftRange: 10.0
+    ShiftLength: 6.0
+    ShiftGrowSpeed: 1.0
+    ShiftHeight: 4.0
+    CollisionRadius: 0.2
+  DragonsSlam:
+    Cooldown: 10000
+    MaxRadius: 15.0
+    Speed: 1.0
+    AngleIncrement: 50.0
+    Damage: 2.5
+    JumpHeight: 1.0
+    Hitbox: 1.0
+  DragonsBolt:
+    Cooldown: 5000
+    Speed: 1.0
+    Damage: 1.5
+    Range: 30.0
+    Hitbox: 1.5

@@ -1,0 +1,290 @@
+Language:
+  Abilities:
+    Spirit:
+      Agility:
+        Description: This ability offers you 2 modes of mobility. The first being
+          the ability to dash forward very quickly. The second being the ability to
+          soar through the skies as if gravity is non-existant.
+        Instructions: 'Left-Click: Dash ⏐ Hold shift: Soar'
+      Passive:
+        SpiritualBody:
+          Description: Spirits do not have a physical form. As such, they are immune
+            to all forms of kinetic damage like fall damage
+          Instructions: Spirits are passively immune to fall damage
+      Combo:
+        Levitation:
+          Description: Spirits lack any earthly tethers which allow themselves to
+            detach and enter the void, empty and become wind. Using this combo takes
+            a toll on your essence and may weaken your mobility for a time.
+          Instructions: Agility (Left-click) > Agility (Hold shift) > Vanish (Left-click)
+        Phase:
+          Description: This advanced combo allows a Spirit to dematerialize into a
+            state where they can walk through walls and fly around a certain radius.
+            They are able to do this because of their unqiue molecular makeup not
+            seen in any other being!
+          Instructions: 'Vanish (Left-click 2x) > Possess (Tap-shift) > Vanish (Left-click)
+            ⏐ To Exit: Vanish (Tap-shift)'
+      Possess:
+        Description: Allows the spirit to possess the body of a human. Successful
+          possession will slow the target and damage them, but if the target fights
+          back, they can break possession and harm the possessor
+        Instructions: 'Left-Click (Multiple): Release Spirit Blast | Tap Sneak: Redirect'
+        Possessed: '&9** Possessed **'
+        PossessionBroken: '&9** Possession Broken **'
+      Vanish:
+        Description: Spirits are often seen disappearing into thin air and then reappearing
+          somewhere different. With this ability, you can harness that power as well!
+          However, there is a certain duration you are able to vanish for an a radius
+          of how far away from your original location you're allowed to get!
+        Instructions: 'Hold shift: Disappear ⏐ Release shift: Reappear'
+    LightSpirit:
+      Alleviate:
+        Description: The healing ability for LightSpirits, this allows you to heal
+          yourself and others! When healing, whoever is being healed will be removed
+          of ANY negative potion effects aswell as recieve regeneration for a period
+          of time.
+        Instructions: 'Hold Shift while lookat at a target: Heal them ⏐ Hold Shift
+          while looking away: Heal yourself.'
+      LightBlast:
+        Description: Shoot a radiating blast of light towards your opponent!
+        Instructions: Left-click to shoot the blast ⏐ Tap-shift to select a target
+          then left-click to shoot a different kind of blast.
+      Combo:
+        Rejuvenate:
+          Description: After executing the combo sequence, you will mark the ground
+            with positively charged spiritual energy for a duration of time. Entities
+            can come to this location to heal themselves, but dark creatures must
+            beware!
+          Instructions: Alleviate (Shift down) > Alleviate (Right-Click block) > Alleviate
+            (Release shift)
+      Orb:
+        Description: Plant an orb of positive energy on the ground which awaits for
+          oncoming entities. If the orb detects something moving past it, it'll expand
+          and harm anyone in its wake! More features to come...
+        Instructions: Hold shift until you see particles. Release shift while looking
+          at an area nearby on the ground to plant it there.
+      Shelter:
+        Description: A very useful tactic when group battling, a light spirit can
+          temporarily shield a friend or even a foe from incoming enemies. Additionally,
+          they have the options to shield themselves!
+        Instructions: 'Left click: Shield others ⏐ Hold shift: Shield yourself.'
+    DarkSpirit:
+      Intoxicate:
+        Description: Sacrifice some of your energy to pour a bit of chaos into the
+          souls of your nearby enemies by taking away their positive potion effects
+          and adding negative ones. Then watch as it destroys them from the inside
+          out! The great spirit Vaatu was known to have this influence over other
+          unbalanced Spirits.
+        Instructions: Hold shift
+      DarkBlast:
+        Description: A basic offensive ability for DarkSpirits. You have the choice
+          of shooting a basic blast for dealing quick damage. Or you can select a
+          target and shoot a slower, powerful, homing blast. The blasts can be dodged
+          and obstructed so be strategic!
+        Instructions: 'Left click: Quick blast ⏐ Tap-shift while looking at an entity:
+          Select entity > Hold shift: Move the homing blast.'
+      Infest:
+        Description: After executing the combo sequence, you will mark the ground
+          with negatively charged spiritual energy for a duration of time. Monsters
+          can come to this location for strength, but any other entities must beware!
+        Instructions: Intoxicate (Shift down) > Intoxicate (Right-Click block) > Intoxicate
+          (Release shift)
+      Shackle:
+        Description: With this technique a DarkSpirit is able to temporarily trap
+          an anyone dead in their tracks, even if you can't see them! Useful for a
+          quick get away...
+        Instructions: Left click
+      Strike:
+        Description: The most basic ability of an aggressive, unbalanced Spirit is
+          to rush towards their enemy and try to bite them in 1 swift motion. When
+          you activate this ability, you'll see your target zone. If your target zone
+          gets in range of another entity, you'll be rushed over to them an deal damage.
+        Instructions: Left-Click to trigger target spectacle
+  Errors:
+    ChooseSpirit: You cannot choose the Spirit element on its own! Please select a
+      Dark or Light Spirit instead!
+Abilities:
+  Spirits:
+    Neutral:
+      Agility:
+        Enabled: true
+        Dash:
+          Cooldown: 2000
+          Distance: 3
+        Soar:
+          Cooldown: 4500
+          Duration: 2000
+          Speed: 0.8
+      Possess:
+        Enabled: true
+        Cooldown: 5000
+        Range: 5
+        Damage: 5
+        Duration: 2000
+      Vanish:
+        Enabled: true
+        Cooldown: 7000
+        Duration: 10000
+        ChargeTime: 1500
+        Range: 20
+        Radius: 10
+        ParticleFrequency: 5
+        RemoveFire: true
+        DivideRange:
+          Enabled: true
+          HealthRequired: 10
+          DivideFactor: 2
+      Combo:
+        Levitation:
+          Enabled: true
+          Cooldown: 10000
+          Duration: 6000
+          Range: 10
+          AllowedHealthLoss: 4
+          AbilityCooldownMultipliers:
+            Agility:
+              Enabled: true
+              Multiplier: 2
+            Phase:
+              Enabled: true
+              Multiplier: 4
+            Levitation:
+              Enabled: true
+              Multiplier: 3
+        Phase:
+          Enabled: true
+          CooldownMultiplier: 4
+          Duration: 10000
+          Range: 10
+          MinHealth: 6
+          Vanish:
+            ApplyCooldown: true
+            CooldownMultiplier: 4
+    LightSpirit:
+      Alleviate:
+        Enabled: true
+        Others:
+          Cooldown: 5000
+          Range: 5
+          PotionInterval: 2000
+          HealInterval: 5000
+          SelfDamage: 6
+        Self:
+          Cooldown: 5000
+          ChargeTime: 2000
+          HealDuration: 1.5
+          NightVisionDuration: 1.5
+          RemoveNegativePotionEffects: true
+        ParticleColor:
+          Red: 255
+          Green: 255
+          Blue: 255
+      LightBlast:
+        Enabled: false
+        Cooldown: 0
+        Controllable: false
+        Damage: 2
+        Range: 10
+        SelectionDuration: 2000
+        PotionDuration: 10
+        PotionPower: 1
+        FirstBlastSpeed: 1
+        SecondBlastSpeed: 0.2
+        BlastRadius: 2
+      Orb:
+        Enabled: true
+        Cooldown: 10000
+        ChargeTime: 2000
+        Duration: 30000
+        WarmUpTime: 500
+        Damage: 3
+        PlaceRange: 20
+        DetonateRange: 3
+        EffectRange: 5
+        BlindnessDuration: 120
+        NauseaDuration: 300
+        PotionPower: 2
+        RequireGround: true
+      Shelter:
+        Enabled: true
+        RemoveOnDamage: true
+        Duration: 7000
+        Others:
+          ClickDelay: 2000
+          Cooldown: 10000
+          Radius: 5
+          KnockbackPower: 1
+          Range: 10
+          BlockArrows: true
+        Self:
+          Cooldown: 10000
+          Radius: 4
+          KnockbackPower: 1
+          BlockArrows: true
+        RemoveIfFarAway:
+          Enabled: true
+          Range: 5
+      Combo:
+        Rejuvenate:
+          Enabled: true
+          Cooldown: 15000
+          Duration: 10000
+          Radius: 5
+          Damage: 1
+          EffectInterval: 10
+          HurtDarkSpirits: true
+          HurtMonsters: true
+    DarkSpirit:
+      Intoxicate:
+        Enabled: true
+        Cooldown: 5000
+        Range: 5
+        PotionInterval: 2000
+        HarmInterval: 5000
+        SelfDamage: 4
+        BlastSpeed: 0.5
+        ParticleColor:
+          Red: 255
+          Green: 0
+          Blue: 0
+        Potions:
+          WitherDuration: 5
+          WitherPower: 1
+          HungerDuration: 50
+          HungerPower: 1
+          ConfusionDuration: 15
+          ConfusionPower: 1
+      Shackle:
+        Enabled: true
+        Cooldown: 5000
+        Duration: 2500
+        Range: 20
+        Radius: 2
+      Strike:
+        Enabled: true
+        Cooldown: 4000
+        Range: 5
+        Damage: 3
+        Radius: 1
+      DarkBlast:
+        Enabled: false
+        Cooldown: 0
+        Controllable: false
+        Damage: 4
+        Range: 10
+        DurationOfSelection: 2000
+        PotionDuration: 5
+        PotionPower: 1
+        FirstBlastSpeed: 1
+        SecondBlastSpeed: 0.2
+        BlastRadius: 2
+      Combo:
+        Infest:
+          Enabled: true
+          Cooldown: 15000
+          Duration: 10000
+          Radius: 8
+          EffectInterval: 10
+          Damage: 1
+          DamageEntities: true
+          HealDarkSpirits: true

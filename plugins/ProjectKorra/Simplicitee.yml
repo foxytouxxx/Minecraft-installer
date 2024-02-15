@@ -1,0 +1,53 @@
+Abilities:
+  Shrapnel:
+    Shot:
+      Cooldown: 2000
+      Damage: 2
+      Speed: 2.3
+    Blast:
+      Cooldown: 3000
+      Shots: 7
+      Spread: 30
+      Speed: 1.9
+  EarthKick:
+    Cooldown: 4000
+    Damage: 1
+    MaxBlocks: 7
+    LavaMultiplier: 1.5
+  LavaFlux:
+    Cooldown: 4000
+    Offset: 1.5
+    Damage: 2
+    Length: 14
+    Width: 1
+    RevertTime: 7000
+  FlameBreath:
+    Cooldown: 8000
+    Damage: 1
+    FireTick: 30
+    Range: 6
+    Duration: 5000
+    Burn:
+      Ground: true
+      Entities: true
+    Rainbow: true
+  MetalRepair:
+    Cooldown: 1000
+    RepairAmount: 25
+    RepairInterval: 1250
+  FireDisc:
+    Damage: 2
+    Range: 25
+    Cooldown: 1500
+    Controllable: true
+    RevertCutBlocks: true
+    DropCutBlocks: false
+    Cuttable_Blocks:
+    - LOG
+    - LOG_2
+  EnergyBeam:
+    Cooldown: 6000
+    Duration: 7000
+    Damage: 1
+    Range: 20
+    EasterEgg: false

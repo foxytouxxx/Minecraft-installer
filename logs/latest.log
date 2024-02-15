@@ -1,0 +1,376 @@
+[12:32:01] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[12:32:01] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
+[12:32:02] [ServerMain/INFO]: No existing world data, creating new world
+[12:32:03] [ServerMain/INFO]: Loaded 1174 recipes
+[12:32:03] [ServerMain/INFO]: Loaded 1271 advancements
+[12:32:03] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[12:32:03] [Server thread/INFO]: Loading properties
+[12:32:03] [Server thread/INFO]: This server is running Paper version git-Paper-424 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: 37df121)
+[12:32:04] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:32:04] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:32:04] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[12:32:05] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[12:32:05] [Server thread/INFO]: Default game type: SURVIVAL
+[12:32:05] [Server thread/INFO]: Generating keypair
+[12:32:05] [Server thread/INFO]: Starting Minecraft server on *:25565
+[12:32:05] [Server thread/INFO]: Using epoll channel type
+[12:32:05] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[12:32:05] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[12:32:05] [Server thread/INFO]: [ProjectKorra] Loading server plugin ProjectKorra v1.11.2
+[12:32:05] [Server thread/INFO]: [JedCore] Loading server plugin JedCore v2.13.0-Spigot1.18-PK1.10.2
+[12:32:05] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.2.0-SNAPSHOT-679
+[12:32:07] [Server thread/INFO]: [ProjectAddons] Loading server plugin ProjectAddons v1.2.4
+[12:32:07] [Server thread/INFO]: [Hyperion] Loading server plugin Hyperion v1.7.0
+[12:32:07] [Server thread/INFO]: [Spirits] Loading server plugin Spirits v1.0
+[12:32:07] [Server thread/INFO]: [Vulcan] Loading server plugin Vulcan v1.0
+[12:32:07] [Server thread/INFO]: [Zephyrus] Loading server plugin Zephyrus v1.0
+[12:32:07] [Server thread/INFO]: [Dragon] Loading server plugin Dragon v1.0
+[12:32:07] [Server thread/INFO]: [DamageSplashesPK] Loading server plugin DamageSplashesPK v1.3.3
+[12:32:07] [Server thread/INFO]: [PKConfigApi] Loading server plugin PKConfigApi v1.4
+[12:32:07] [Server thread/INFO]: [TorrentRedirection] Loading server plugin TorrentRedirection v1.1
+[12:32:07] [Server thread/INFO]: [ArmorInteraction] Loading server plugin ArmorInteraction v2.0
+[12:32:07] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:32:07] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.2.0-SNAPSHOT-679
+[12:32:07] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[12:32:07] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[12:32:07] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[12:32:07] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[12:32:07] [Server thread/INFO]: Preparing level "world"
+[12:32:16] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[12:32:16] [Server thread/INFO]: Time elapsed: 120 ms
+[12:32:16] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[12:32:16] [Server thread/INFO]: Time elapsed: 74 ms
+[12:32:16] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[12:32:16] [Server thread/INFO]: Time elapsed: 31 ms
+[12:32:16] [Server thread/INFO]: [ProjectKorra] Enabling ProjectKorra v1.11.2
+[12:32:17] [Server thread/WARN]: [ProjectKorra] The JAR file DirtBlast.jar is a plugin and not an ability! Put it in the plugins folder!
+[12:32:18] [Server thread/WARN]: [ProjectKorra] The JAR file AirTendril-Sammycocobear.jar is a plugin and not an ability! Put it in the plugins folder!
+[12:32:18] [Server thread/WARN]: [ProjectKorra] The JAR file Dash.jar is a plugin and not an ability! Put it in the plugins folder!
+[12:32:18] [Server thread/WARN]: [ProjectKorra] The JAR file SCBPKHackathon.jar is a plugin and not an ability! Put it in the plugins folder!
+[12:32:18] [Server thread/WARN]: [ProjectKorra] The JAR file AirDash-1.0.0.jar is a plugin and not an ability! Put it in the plugins folder!
+[12:32:18] [Server thread/WARN]: [ProjectKorra] The JAR file Electrocute.jar is a plugin and not an ability! Put it in the plugins folder!
+[12:32:18] [Server thread/WARN]: [ProjectKorra] The JAR file FireSwirl.jar is a plugin and not an ability! Put it in the plugins folder!
+[12:32:18] [Server thread/WARN]: [ProjectKorra] The JAR file EarthSpike.jar is a plugin and not an ability! Put it in the plugins folder!
+[12:32:18] [Server thread/WARN]: [ProjectKorra] The JAR file BloodShards-1.0-SNAPSHOT.jar is a plugin and not an ability! Put it in the plugins folder!
+[12:32:18] [Server thread/WARN]: [ProjectKorra] The JAR file Deflect - Sammycocobear.jar is a plugin and not an ability! Put it in the plugins folder!
+[12:32:18] [Server thread/WARN]: [ProjectKorra] The JAR file daggers-1.0.0.jar is a plugin and not an ability! Put it in the plugins folder!
+[12:32:18] [Server thread/WARN]: [ProjectKorra] The JAR file FieryRage-1.0.0.jar is a plugin and not an ability! Put it in the plugins folder!
+[12:32:18] [Server thread/WARN]: [ProjectKorra] The JAR file Landslide.jar is a plugin and not an ability! Put it in the plugins folder!
+[12:32:18] [Server thread/INFO]: [ProjectKorra] Combustion Build 1.0 by Prride loaded! 
+[12:32:18] [Server thread/INFO]: [ProjectKorra] Combustion Build v1.0 by Prride loaded! 
+[12:32:18] [Server thread/INFO]: [ProjectKorra] Mend by EmeraldJelly v2.0.1 has been enabled!
+[12:32:18] [Server thread/INFO]: [ProjectKorra] Shatter 1.1 by DreamerBoy loaded! 
+[12:32:18] [Server thread/INFO]: [ProjectKorra] Paralyze by StrangeOne101 v1.3 loaded!
+[12:32:19] [Server thread/INFO]: [ProjectKorra] WaterBlock 2.1 by DreamerBoy/Dramaura & Hiro3 enabled! 
+[12:32:19] [Server thread/INFO]: FireSerpent v1.0.0 Developed by EmeraldJelly has been enabled!
+[12:32:19] [Server thread/INFO]: [ProjectKorra] Succesfully enabled Mist by Hiro3
+[12:32:19] [Server thread/INFO]: [ProjectKorra] Successfully enabled SandManipulation 1.0.0 by Seabarrel
+[12:32:19] [Server thread/INFO]: [ProjectKorra] Cleanse by Sobki v1.0.1 loaded!
+[12:32:19] [Server thread/INFO]: CloudBurst v1.0Developed by EmeraldJelly has been enabled!
+[12:32:19] [Server thread/INFO]: [ProjectKorra] FireBomb 1.0.4 by Greenwolf5 has been sucessfuly enabled. Blame Kiam and Kirby for this move.
+[12:32:19] [Server thread/INFO]: [ProjectKorra] §aEarth abilities by Prride are loaded in!
+[12:32:19] [Server thread/WARN]: [ProjectKorra] The ability Stalagmites was not able to load, if this message shows again please remove it!
+[12:32:19] [Server thread/WARN]: java.lang.NoSuchMethodError: 'org.bukkit.ChatColor com.projectkorra.projectkorra.Element.getColor()'
+[12:32:19] [Server thread/WARN]: 	at me.Pride.loader.Loader.getAuthor(Loader.java:142)
+[12:32:19] [Server thread/WARN]: 	at me.Pride.abilities.Stalagmites.getAuthor(Stalagmites.java:197)
+[12:32:19] [Server thread/WARN]: 	at ProjectKorra-1.11.2.jar//com.projectkorra.projectkorra.ability.CoreAbility.registerAddonAbilities(CoreAbility.java:642)
+[12:32:19] [Server thread/WARN]: 	at ProjectKorra-1.11.2.jar//com.projectkorra.projectkorra.ability.CoreAbility.registerAbilities(CoreAbility.java:526)
+[12:32:19] [Server thread/WARN]: 	at ProjectKorra-1.11.2.jar//com.projectkorra.projectkorra.ProjectKorra.onEnable(ProjectKorra.java:69)
+[12:32:19] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:287)
+[12:32:19] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:188)
+[12:32:19] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104)
+[12:32:19] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507)
+[12:32:19] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.enablePlugin(CraftServer.java:639)
+[12:32:19] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.enablePlugins(CraftServer.java:550)
+[12:32:19] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:671)
+[12:32:19] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:431)
+[12:32:19] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:309)
+[12:32:19] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1131)
+[12:32:19] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319)
+[12:32:19] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[12:32:19] [Server thread/INFO]: [ProjectKorra] Succesfully enabled Bola by Hiro3
+[12:32:19] [Server thread/WARN]: [ProjectKorra] The ability FireBomb was not able to load, if this message shows again please remove it!
+[12:32:19] [Server thread/WARN]: java.lang.IllegalArgumentException: The permission bending.ability.firebomb is already defined!
+[12:32:19] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPermissionManager.addPermission(PaperPermissionManager.java:56)
+[12:32:19] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPermissionManager.addPermission(PaperPermissionManager.java:40)
+[12:32:19] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.addPermission(PaperPluginManagerImpl.java:153)
+[12:32:19] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.addPermission(SimplePluginManager.java:759)
+[12:32:19] [Server thread/WARN]: 	at me.greenwolf5.firebomb.FireBomb.load(FireBomb.java:256)
+[12:32:19] [Server thread/WARN]: 	at ProjectKorra-1.11.2.jar//com.projectkorra.projectkorra.ability.CoreAbility.registerAddonAbilities(CoreAbility.java:632)
+[12:32:19] [Server thread/WARN]: 	at ProjectKorra-1.11.2.jar//com.projectkorra.projectkorra.ability.CoreAbility.registerAbilities(CoreAbility.java:526)
+[12:32:19] [Server thread/WARN]: 	at ProjectKorra-1.11.2.jar//com.projectkorra.projectkorra.ProjectKorra.onEnable(ProjectKorra.java:69)
+[12:32:19] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:287)
+[12:32:19] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:188)
+[12:32:19] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104)
+[12:32:19] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507)
+[12:32:19] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.enablePlugin(CraftServer.java:639)
+[12:32:19] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.enablePlugins(CraftServer.java:550)
+[12:32:19] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:671)
+[12:32:19] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:431)
+[12:32:19] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:309)
+[12:32:19] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1131)
+[12:32:19] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319)
+[12:32:19] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[12:32:19] [Server thread/INFO]: [ProjectKorra] Successfully enabled HighJump by Numin
+[12:32:19] [Server thread/INFO]: [ProjectKorra] Loaded MetalTendrils
+[12:32:19] [Server thread/INFO]: [ProjectKorra] Succesfully enabled EarthPulse by Hiro3
+[12:32:19] [Server thread/INFO]: [ProjectKorra] Succesfully enabled SeismicWave by Hiro3
+[12:32:19] [Server thread/INFO]: [ProjectKorra] Succesfully enabled TerraSense by Hiro3
+[12:32:19] [Server thread/INFO]: [ProjectKorra] Burrow 1.1 by DreamerBoy loaded! 
+[12:32:19] [Server thread/INFO]: [ProjectKorra] Geyser 1.0 by DreamerBoy loaded! 
+[12:32:19] [Server thread/INFO]: [ProjectKorra] Successfully enabled InnerFlame 1.0.2 by Manu
+[12:32:19] [Server thread/INFO]: [ProjectKorra] SPIRITS: THE COMPLETE SET BY PRRIDE LOADED!
+[12:32:19] [Server thread/INFO]: [ProjectKorra] Successfully loaded CosmicBlast by xNuminousx
+[12:32:19] [Server thread/INFO]: [ProjectKorra] IceDrillPassive 1.1 by DreamerB0y loaded! 
+[12:32:19] [Server thread/INFO]: [ProjectKorra] Stream v1.5 by NickC1211 loaded!
+[12:32:19] [Server thread/INFO]: [ProjectKorra] Successfully enabled FlameRush v2.0 by Soringaming
+[12:32:19] [Server thread/INFO]: [ProjectKorra] Successfully enabled BloodManipulation 1.0.0 by Seabarrel
+[12:32:19] [Server thread/INFO]: [ProjectKorra] Successfully enabled EarthWalk 1.0.1 by Seabarrel
+[12:32:19] [Server thread/INFO]: [ProjectKorra] Succesfully enabled AirSpray by Hiro3
+[12:32:19] [Server thread/INFO]: [ProjectKorra] Succesfully enabled AirFlow by Hiro3
+[12:32:19] [Server thread/INFO]: [ProjectKorra] Succesfully enabled AirPressureLow by Hiro3
+[12:32:19] [Server thread/INFO]: [ProjectKorra] Succesfully enabled AirFlowReverse by Hiro3
+[12:32:19] [Server thread/INFO]: [ProjectKorra] Succesfully enabled AirSpin by Hiro3
+[12:32:19] [Server thread/INFO]: [ProjectKorra] Succesfully enabled AirPressureHigh by Hiro3
+[12:32:19] [Server thread/INFO]: [ProjectKorra] Succesfully enabled EarthRift by Hiro3
+[12:32:19] [Server thread/INFO]: [ProjectKorra] Succesfully enabled Crush by Hiro3
+[12:32:19] [Server thread/INFO]: [ProjectKorra] LightningOrb LightningOrb Build V1.0 by WhiteXShadow & Pride loaded! 
+[12:32:20] [Server thread/INFO]: [ProjectKorra] BloodRip v1.2 by StrangeOne101 loaded!
+[12:32:20] [Server thread/INFO]: [ProjectKorra] You're a good person for installing this ability. Take that how you will. :)
+[12:32:20] [Server thread/INFO]: [ProjectKorra] SparklingFire by §4§nDreig_Michihi §61.3.1 has been loaded!
+[12:32:20] [Server thread/INFO]: [ProjectKorra] IceCatapult 1.2 by DreamerBoy loaded! 
+[12:32:20] [Server thread/INFO]: [ProjectKorra] [AvatachTweaks V0.2.9.2] AirSpout by Dreig_Michihi has been loaded!
+[12:32:20] [Server thread/INFO]: [ProjectKorra] [AvatachTweaks V0.2.9.2] BlastJump by Dreig_Michihi has been loaded!
+[12:32:20] [Server thread/INFO]: [ProjectKorra] [AvatachTweaks V0.2.9.2] SuctionJump by Dreig_Michihi has been loaded!
+[12:32:20] [Server thread/INFO]: [ProjectKorra] [AvatachTweaks V0.2.9.2] ShakingOffLava by Dreig_Michihi has been loaded!
+[12:32:20] [Server thread/INFO]: [ProjectKorra] [AvatachTweaks V0.2.9.2] Combustion by Dreig_Michihi has been loaded!
+[12:32:20] [Server thread/INFO]: [ProjectKorra] [AvatachTweaks V0.2.9.2] IceWave by Dreig_Michihi has been loaded!
+[12:32:20] [Server thread/INFO]: [ProjectKorra] [AvatachTweaks V0.2.9.2] IcyClaws by Dreig_Michihi has been loaded!
+[12:32:20] [Server thread/INFO]: [ProjectKorra] [AvatachTweaks V0.2.9.2] Rainbending by Dreig_Michihi has been loaded!
+[12:32:20] [Server thread/INFO]: Pressure v1.4 Developed by Aceliip has been enabled!
+[12:32:20] [Server thread/INFO]: [ProjectKorra] Boil 1.2 by DreamerBoy loaded! 
+[12:32:20] [Server thread/INFO]: [ProjectKorra] MagmaRush Build 1.4 by Prride loaded! 
+[12:32:20] [Server thread/INFO]: [ProjectKorra] MagmaRush Build 1.4 by Prride loaded! 
+[12:32:20] [Server thread/INFO]: [ProjectKorra] AirJump by Loony 1.1.1 has been loaded!
+[12:32:20] [Server thread/INFO]: [ProjectKorra] ElementTrap 1.0 Build 12 by StrangeOne101 and Prride loaded! 
+[12:32:20] [Server thread/INFO]: [ProjectKorra] Succesfully enabled Sprinkle by Hiro3
+[12:32:20] [Server thread/INFO]: [ProjectKorra] Succesfully enabled IceVolley by Hiro3
+[12:32:20] [Server thread/INFO]: [ProjectKorra] Succesfully enabled RagingFire by Hiro3
+[12:32:20] [Server thread/INFO]: [ProjectKorra] Succesfully enabled EarthMole by Hiro3
+[12:32:20] [Server thread/WARN]: [ProjectKorra] The ability EarthShove was not able to load, if this message shows again please remove it!
+[12:32:20] [Server thread/WARN]: java.lang.IllegalArgumentException: The permission bending.ability.earthshove is already defined!
+[12:32:20] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPermissionManager.addPermission(PaperPermissionManager.java:56)
+[12:32:20] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPermissionManager.addPermission(PaperPermissionManager.java:40)
+[12:32:20] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.addPermission(PaperPluginManagerImpl.java:153)
+[12:32:20] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.addPermission(SimplePluginManager.java:759)
+[12:32:20] [Server thread/WARN]: 	at me.finnbueno.earthshove.EarthShove.load(EarthShove.java:208)
+[12:32:20] [Server thread/WARN]: 	at ProjectKorra-1.11.2.jar//com.projectkorra.projectkorra.ability.CoreAbility.registerAddonAbilities(CoreAbility.java:632)
+[12:32:20] [Server thread/WARN]: 	at ProjectKorra-1.11.2.jar//com.projectkorra.projectkorra.ability.CoreAbility.registerAbilities(CoreAbility.java:526)
+[12:32:20] [Server thread/WARN]: 	at ProjectKorra-1.11.2.jar//com.projectkorra.projectkorra.ProjectKorra.onEnable(ProjectKorra.java:69)
+[12:32:20] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:287)
+[12:32:20] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:188)
+[12:32:20] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104)
+[12:32:20] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507)
+[12:32:20] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.enablePlugin(CraftServer.java:639)
+[12:32:20] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.enablePlugins(CraftServer.java:550)
+[12:32:20] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:671)
+[12:32:20] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:431)
+[12:32:20] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:309)
+[12:32:20] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1131)
+[12:32:20] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319)
+[12:32:20] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[12:32:20] [Server thread/INFO]: [ProjectKorra] Succesfully enabled FireSpray by Hiro3
+[12:32:20] [Server thread/INFO]: [ProjectKorra] MetalCables v2.0 (revived) by Finn_Bueno_ has been loaded!
+[12:32:20] [Server thread/INFO]: [ProjectKorra] AirLift 1.2 by xLumos loaded! 
+[12:32:20] [Server thread/INFO]: [ProjectKorra] BloodLet 1.2 by xLumos loaded! 
+[12:32:20] [Server thread/INFO]: [ProjectKorra] ChestPalm 1.1 by xLumos loaded! 
+[12:32:20] [Server thread/INFO]: [ProjectKorra] CrystalPrison 1.4 by xLumos loaded baked potatoes! 
+[12:32:20] [Server thread/INFO]: [ProjectKorra] DragonFire 1.1 by xLumos loaded! 
+[12:32:20] [Server thread/INFO]: [ProjectKorra] DustDevils 1.1 by xLumos loaded! 
+[12:32:20] [Server thread/INFO]: [ProjectKorra] FireVortex 1.2 by xLumos loaded! 
+[12:32:20] [Server thread/INFO]: [ProjectKorra] Flatulate 1.0 by xLumos loaded! 
+[12:32:20] [Server thread/INFO]: [ProjectKorra] FrostCuffs 1.0 by xLumos loaded! 
+[12:32:20] [Server thread/INFO]: [ProjectKorra] FrostTrap 1.2 by xLumos loaded! 
+[12:32:20] [Server thread/INFO]: [ProjectKorra] HydroTherapy 1.1 by xLumos loaded! 
+[12:32:20] [Server thread/INFO]: [ProjectKorra] Invoke 1.1 by xLumos loaded baked potatoes! 
+[12:32:21] [Server thread/WARN]: java.io.IOException: Server returned HTTP response code: 401 for URL: https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b2962ffe-ef86-4b12-8485-b5e02603bef0/deg4j7t-6747b469-ef80-415f-92e8-5ffb0db27578.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvYjI5NjJmZmUtZWY4Ni00YjEyLTg0ODUtYjVlMDI2MDNiZWYwXC9kZWc0ajd0LTY3NDdiNDY5LWVmODAtNDE1Zi05MmU4LTVmZmIwZGIyNzU3OC5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.SU2_7wAhjeJCvTYPvQjpvvW9azfbRej4EcwvAlxaFec
+[12:32:21] [Server thread/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1998)
+[12:32:21] [Server thread/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1599)
+[12:32:21] [Server thread/WARN]: 	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:223)
+[12:32:21] [Server thread/WARN]: 	at java.base/java.net.URL.openStream(URL.java:1325)
+[12:32:21] [Server thread/WARN]: 	at com.xLumos.Invoke.Invoke.getImage(Invoke.java:368)
+[12:32:21] [Server thread/WARN]: 	at com.xLumos.Invoke.Invoke.loadImages(Invoke.java:356)
+[12:32:21] [Server thread/WARN]: 	at com.xLumos.Invoke.Invoke.load(Invoke.java:349)
+[12:32:21] [Server thread/WARN]: 	at ProjectKorra-1.11.2.jar//com.projectkorra.projectkorra.ability.CoreAbility.registerAddonAbilities(CoreAbility.java:632)
+[12:32:21] [Server thread/WARN]: 	at ProjectKorra-1.11.2.jar//com.projectkorra.projectkorra.ability.CoreAbility.registerAbilities(CoreAbility.java:526)
+[12:32:21] [Server thread/WARN]: 	at ProjectKorra-1.11.2.jar//com.projectkorra.projectkorra.ProjectKorra.onEnable(ProjectKorra.java:69)
+[12:32:21] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:287)
+[12:32:21] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:188)
+[12:32:21] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104)
+[12:32:21] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507)
+[12:32:21] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.enablePlugin(CraftServer.java:639)
+[12:32:21] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.enablePlugins(CraftServer.java:550)
+[12:32:21] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:671)
+[12:32:21] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:431)
+[12:32:21] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:309)
+[12:32:21] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1131)
+[12:32:21] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319)
+[12:32:21] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[12:32:21] [Server thread/WARN]: java.io.IOException: Server returned HTTP response code: 401 for URL: https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b2962ffe-ef86-4b12-8485-b5e02603bef0/deg4j9o-49670d1c-4f42-4455-8e0d-d52bcd4d3669.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvYjI5NjJmZmUtZWY4Ni00YjEyLTg0ODUtYjVlMDI2MDNiZWYwXC9kZWc0ajlvLTQ5NjcwZDFjLTRmNDItNDQ1NS04ZTBkLWQ1MmJjZDRkMzY2OS5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.GrUqR1lTR6UF5mDm1uO99fuXPQsG_q4qwm9hL7R0zp4
+[12:32:21] [Server thread/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1998)
+[12:32:21] [Server thread/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1599)
+[12:32:21] [Server thread/WARN]: 	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:223)
+[12:32:21] [Server thread/WARN]: 	at java.base/java.net.URL.openStream(URL.java:1325)
+[12:32:21] [Server thread/WARN]: 	at com.xLumos.Invoke.Invoke.getImage(Invoke.java:368)
+[12:32:21] [Server thread/WARN]: 	at com.xLumos.Invoke.Invoke.loadImages(Invoke.java:357)
+[12:32:21] [Server thread/WARN]: 	at com.xLumos.Invoke.Invoke.load(Invoke.java:349)
+[12:32:21] [Server thread/WARN]: 	at ProjectKorra-1.11.2.jar//com.projectkorra.projectkorra.ability.CoreAbility.registerAddonAbilities(CoreAbility.java:632)
+[12:32:21] [Server thread/WARN]: 	at ProjectKorra-1.11.2.jar//com.projectkorra.projectkorra.ability.CoreAbility.registerAbilities(CoreAbility.java:526)
+[12:32:21] [Server thread/WARN]: 	at ProjectKorra-1.11.2.jar//com.projectkorra.projectkorra.ProjectKorra.onEnable(ProjectKorra.java:69)
+[12:32:21] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:287)
+[12:32:21] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:188)
+[12:32:21] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104)
+[12:32:21] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507)
+[12:32:21] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.enablePlugin(CraftServer.java:639)
+[12:32:21] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.enablePlugins(CraftServer.java:550)
+[12:32:21] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:671)
+[12:32:21] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:431)
+[12:32:21] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:309)
+[12:32:21] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1131)
+[12:32:21] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319)
+[12:32:21] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[12:32:22] [Server thread/WARN]: java.io.IOException: Server returned HTTP response code: 401 for URL: https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b2962ffe-ef86-4b12-8485-b5e02603bef0/deg4jlk-809f0e65-7709-4783-aa0a-cf6ec3c03d74.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvYjI5NjJmZmUtZWY4Ni00YjEyLTg0ODUtYjVlMDI2MDNiZWYwXC9kZWc0amxrLTgwOWYwZTY1LTc3MDktNDc4My1hYTBhLWNmNmVjM2MwM2Q3NC5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.cRawnPt4UfWl9dq4mhWOX0_EXjQYZvXbhKtCFq8_z9I
+[12:32:22] [Server thread/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1998)
+[12:32:22] [Server thread/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1599)
+[12:32:22] [Server thread/WARN]: 	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:223)
+[12:32:22] [Server thread/WARN]: 	at java.base/java.net.URL.openStream(URL.java:1325)
+[12:32:22] [Server thread/WARN]: 	at com.xLumos.Invoke.Invoke.getImage(Invoke.java:368)
+[12:32:22] [Server thread/WARN]: 	at com.xLumos.Invoke.Invoke.loadImages(Invoke.java:358)
+[12:32:22] [Server thread/WARN]: 	at com.xLumos.Invoke.Invoke.load(Invoke.java:349)
+[12:32:22] [Server thread/WARN]: 	at ProjectKorra-1.11.2.jar//com.projectkorra.projectkorra.ability.CoreAbility.registerAddonAbilities(CoreAbility.java:632)
+[12:32:22] [Server thread/WARN]: 	at ProjectKorra-1.11.2.jar//com.projectkorra.projectkorra.ability.CoreAbility.registerAbilities(CoreAbility.java:526)
+[12:32:22] [Server thread/WARN]: 	at ProjectKorra-1.11.2.jar//com.projectkorra.projectkorra.ProjectKorra.onEnable(ProjectKorra.java:69)
+[12:32:22] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:287)
+[12:32:22] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:188)
+[12:32:22] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104)
+[12:32:22] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507)
+[12:32:22] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.enablePlugin(CraftServer.java:639)
+[12:32:22] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.enablePlugins(CraftServer.java:550)
+[12:32:22] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:671)
+[12:32:22] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:431)
+[12:32:22] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:309)
+[12:32:22] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1131)
+[12:32:22] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319)
+[12:32:22] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[12:32:22] [Server thread/WARN]: java.io.IOException: Server returned HTTP response code: 401 for URL: https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b2962ffe-ef86-4b12-8485-b5e02603bef0/deg4jbv-f9025f09-aceb-4884-9e6c-84fc83a0b5fb.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvYjI5NjJmZmUtZWY4Ni00YjEyLTg0ODUtYjVlMDI2MDNiZWYwXC9kZWc0amJ2LWY5MDI1ZjA5LWFjZWItNDg4NC05ZTZjLTg0ZmM4M2EwYjVmYi5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.NslTgchCnV9qN8WzjW5P8L7meE7gOanLgWpCWON4EOs
+[12:32:22] [Server thread/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1998)
+[12:32:22] [Server thread/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1599)
+[12:32:22] [Server thread/WARN]: 	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:223)
+[12:32:22] [Server thread/WARN]: 	at java.base/java.net.URL.openStream(URL.java:1325)
+[12:32:22] [Server thread/WARN]: 	at com.xLumos.Invoke.Invoke.getImage(Invoke.java:368)
+[12:32:22] [Server thread/WARN]: 	at com.xLumos.Invoke.Invoke.loadImages(Invoke.java:359)
+[12:32:22] [Server thread/WARN]: 	at com.xLumos.Invoke.Invoke.load(Invoke.java:349)
+[12:32:22] [Server thread/WARN]: 	at ProjectKorra-1.11.2.jar//com.projectkorra.projectkorra.ability.CoreAbility.registerAddonAbilities(CoreAbility.java:632)
+[12:32:22] [Server thread/WARN]: 	at ProjectKorra-1.11.2.jar//com.projectkorra.projectkorra.ability.CoreAbility.registerAbilities(CoreAbility.java:526)
+[12:32:22] [Server thread/WARN]: 	at ProjectKorra-1.11.2.jar//com.projectkorra.projectkorra.ProjectKorra.onEnable(ProjectKorra.java:69)
+[12:32:22] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:287)
+[12:32:22] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:188)
+[12:32:22] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104)
+[12:32:22] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507)
+[12:32:22] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.enablePlugin(CraftServer.java:639)
+[12:32:22] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.enablePlugins(CraftServer.java:550)
+[12:32:22] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:671)
+[12:32:22] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:431)
+[12:32:22] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:309)
+[12:32:22] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1131)
+[12:32:22] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319)
+[12:32:22] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[12:32:22] [Server thread/INFO]: [ProjectKorra] MetalShots 1.2 by xLumos loaded! 
+[12:32:22] [Server thread/INFO]: MetalWhip has been successfully enabled!
+[12:32:22] [Server thread/INFO]: [ProjectKorra] Mirage 1.2 by xLumos loaded! 
+[12:32:22] [Server thread/INFO]: [ProjectKorra] PressurePoint 1.1 by xLumos loaded! 
+[12:32:22] [Server thread/INFO]: [ProjectKorra] Redirect 1.1 by xLumos loaded! 
+[12:32:22] [Server thread/INFO]: [ProjectKorra] SideStep 1.1 by xLumos loaded! 
+[12:32:22] [Server thread/INFO]: [ProjectKorra] Succesfully enabled Smokebomb by Hiro3
+[12:32:22] [Server thread/WARN]: [ProjectKorra] ShrapnelBlast is an addon ability and must implement the AddonAbility interface
+[12:32:22] [Server thread/INFO]: [ProjectKorra] MeteorDash by §4Dreig_Michihi §61.5.4 has been loaded!
+[12:32:22] [Server thread/INFO]: [ProjectKorra] Succesfully enabled AirWheel by Hiro3
+[12:32:22] [Server thread/INFO]: [ProjectKorra] Erosion by §aLiam & Prride §a§lEROSION V:1.0 loaded!
+[12:32:22] [Server thread/INFO]: [ProjectKorra] AirBubble 1.0 by StrangeOne101 enabled!
+[12:32:22] [Server thread/INFO]: [ProjectKorra] Succesfully enabled Toss by Hiro3
+[12:32:22] [Server thread/INFO]: [ProjectKorra] Whip v6.3 by NickC1211 loaded!
+[12:32:22] [Server thread/INFO]: [ProjectKorra] Establishing SQLite Connection...
+[12:32:22] [Server thread/INFO]: [ProjectKorra] [SQLite] Connection established!
+[12:32:22] [Server thread/WARN]: Plugin 'ProjectKorra' is creating timing 'PhysicsWaterManipulationCheck' - this is deprecated behavior, please report it to the authors: ProjectKorra
+[12:32:22] [Server thread/WARN]: Plugin 'ProjectKorra' is creating timing 'PhysicsEarthPassiveCheck' - this is deprecated behavior, please report it to the authors: ProjectKorra
+[12:32:22] [Server thread/WARN]: Plugin 'ProjectKorra' is creating timing 'PhysicsIlluminationTorchCheck' - this is deprecated behavior, please report it to the authors: ProjectKorra
+[12:32:22] [Server thread/WARN]: Plugin 'ProjectKorra' is creating timing 'PhysicsEarthAbilityCheck' - this is deprecated behavior, please report it to the authors: ProjectKorra
+[12:32:22] [Server thread/WARN]: Plugin 'ProjectKorra' is creating timing 'PhysicsAirTempBlockBelowFallingBlockCheck' - this is deprecated behavior, please report it to the authors: ProjectKorra
+[12:32:22] [Server thread/WARN]: Plugin 'ProjectKorra' is creating timing 'PlayerMoveMovementHandlerCheck' - this is deprecated behavior, please report it to the authors: ProjectKorra
+[12:32:22] [Server thread/WARN]: Plugin 'ProjectKorra' is creating timing 'PlayerMoveSpoutCheck' - this is deprecated behavior, please report it to the authors: ProjectKorra
+[12:32:22] [Server thread/WARN]: Plugin 'ProjectKorra' is creating timing 'PlayerMoveBloodbentCheck' - this is deprecated behavior, please report it to the authors: ProjectKorra
+[12:32:22] [Server thread/WARN]: Plugin 'ProjectKorra' is creating timing 'PlayerMoveAirChiPassiveCheck' - this is deprecated behavior, please report it to the authors: ProjectKorra
+[12:32:22] [Server thread/WARN]: Plugin 'ProjectKorra' is creating timing 'PlayerMoveFirePassiveCheck' - this is deprecated behavior, please report it to the authors: ProjectKorra
+[12:32:22] [Server thread/WARN]: Plugin 'ProjectKorra' is creating timing 'PlayerMoveJumpCheck' - this is deprecated behavior, please report it to the authors: ProjectKorra
+[12:32:22] [Server thread/WARN]: Plugin 'ProjectKorra' is creating timing 'CoreAbility#ProgressAll' - this is deprecated behavior, please report it to the authors: ProjectKorra
+[12:32:22] [Server thread/WARN]: Plugin 'ProjectKorra' is creating timing 'TempPotion#ProgressAll' - this is deprecated behavior, please report it to the authors: ProjectKorra
+[12:32:22] [Server thread/WARN]: Plugin 'ProjectKorra' is creating timing 'HandleDayNight' - this is deprecated behavior, please report it to the authors: ProjectKorra
+[12:32:22] [Server thread/WARN]: Plugin 'ProjectKorra' is creating timing 'HorizontalVelocityTracker#UpdateAll' - this is deprecated behavior, please report it to the authors: ProjectKorra
+[12:32:22] [Server thread/WARN]: Plugin 'ProjectKorra' is creating timing 'HandleCooldowns' - this is deprecated behavior, please report it to the authors: ProjectKorra
+[12:32:22] [Server thread/WARN]: Plugin 'ProjectKorra' is creating timing 'TempArmor#Cleanup' - this is deprecated behavior, please report it to the authors: ProjectKorra
+[12:32:22] [Server thread/WARN]: Plugin 'ProjectKorra' is creating timing 'ActionBarCheck' - this is deprecated behavior, please report it to the authors: ProjectKorra
+[12:32:22] [Server thread/WARN]: Plugin 'ProjectKorra' is creating timing 'TempFallingBlock#manage' - this is deprecated behavior, please report it to the authors: ProjectKorra
+[12:32:22] [Server thread/WARN]: Plugin 'ProjectKorra' is creating timing 'TempBlockRevert' - this is deprecated behavior, please report it to the authors: ProjectKorra
+[12:32:22] [Server thread/INFO]: [JedCore] Enabling JedCore v2.13.0-Spigot1.18-PK1.10.2
+[12:32:22] [Server thread/INFO]: [JedCore] Generating new directory for board.yml!
+[12:32:22] [Server thread/INFO]: [JedCore] Generating new board.yml!
+[12:32:22] [Server thread/INFO]: [JedCore] Generating new directory for players.yml!
+[12:32:22] [Server thread/INFO]: [JedCore] Generating new players.yml!
+[12:32:22] [Server thread/INFO]: [JedCore] Initialized Metrics.
+[12:32:22] [Server thread/WARN]: Plugin ProjectAddons v1.2.4 tried to register permission 'bending.ability.energybeam' but it's already registered
+[12:32:22] [Server thread/INFO]: [ProjectAddons] Enabling ProjectAddons v1.2.4
+[12:32:22] [Server thread/INFO]: [ProjectKorra] Generating new project_addons.yml!
+[12:32:22] [Server thread/INFO]: [Hyperion] Enabling Hyperion v1.7.0
+[12:32:23] [Server thread/INFO]: [Hyperion] Registered collisions.
+[12:32:23] [Server thread/INFO]: [Spirits] Enabling Spirits v1.0
+[12:32:23] [Server thread/INFO]: [Spirits] Init config
+[12:32:23] [Server thread/INFO]: [Spirits] Init abilities
+[12:32:23] [Server thread/INFO]: [Spirits] Successfully enabled Spirits.
+[12:32:23] [Server thread/INFO]: [Vulcan] Enabling Vulcan v1.0
+[12:32:23] [Server thread/INFO]: [Vulcan] Successfully enabled Vulcan.
+[12:32:23] [Server thread/INFO]: [Zephyrus] Enabling Zephyrus v1.0
+[12:32:23] [Server thread/INFO]: [Zephyrus] Loading configuration
+[12:32:23] [Server thread/INFO]: [Zephyrus] Successfully enabled Zephyrus.
+[12:32:23] [Server thread/INFO]: [Dragon] Enabling Dragon v1.0
+[12:32:23] [Server thread/INFO]: [Dragon] Loading configuration
+[12:32:23] [Server thread/INFO]: [Dragon] Successfully enabled Dragon.
+[12:32:23] [Server thread/INFO]: [DamageSplashesPK] Enabling DamageSplashesPK v1.3.3
+[12:32:23] [Server thread/INFO]: [DamageSplashesPK] DAMAGE SPLASHES ENABLED!!!
+[12:32:23] [Server thread/INFO]: [PKConfigApi] Enabling PKConfigApi v1.4
+[12:32:23] [Server thread/INFO]: [TorrentRedirection] Enabling TorrentRedirection v1.1
+[12:32:23] [Server thread/INFO]: [TorrentRedirection] TorrentRedirection ready for take off! (Just kidding. Done setting up.)
+[12:32:23] [Server thread/INFO]: [ArmorInteraction] Enabling ArmorInteraction v2.0
+[12:32:23] [Server thread/INFO]: [ArmorInteraction] Successfully enabled ArmorInteraction
+[12:32:23] [Server thread/INFO]: Running delayed init tasks
+[12:32:23] [Craft Scheduler Thread - 3 - ProjectKorra/INFO]: [ProjectKorra] Checking for updates...!
+[12:32:23] [Server thread/INFO]: Done (19.779s)! For help, type "help"
+[12:32:23] [Server thread/INFO]: Timings Reset
+[12:32:24] [Server thread/INFO]: [PKConfigApi] Assigning ConfigValues
+[12:32:24] [Server thread/INFO]: [PKConfigApi] Registered 56 fields in 8 abilities!
+[12:32:24] [Craft Scheduler Thread - 3 - ProjectKorra/INFO]: [ProjectKorra] You are running the latest version of ProjectKorra
+[12:32:26] [Server thread/INFO]: Server Plugins (13):
+[12:32:26] [Server thread/INFO]: Bukkit Plugins:
+[12:32:26] [Server thread/INFO]:  - ArmorInteraction, DamageSplashesPK, Dragon, Hyperion, JedCore, PKConfigApi, ProjectAddons, ProjectKorra, ProtocolLib, Spirits
+[12:32:26] [Server thread/INFO]:  TorrentRedirection, Vulcan, Zephyrus
+[12:32:32] [User Authenticator #0/INFO]: UUID of player JaxxTheConqueror is 617aea5f-3296-3a5b-93f6-43d605b12dcc
+[12:32:32] [Server thread/INFO]: JaxxTheConqueror joined the game
+[12:32:32] [Server thread/INFO]: JaxxTheConqueror[/[0:0:0:0:0:0:0:1%0]:60312] logged in with entity id 36 at ([world]72.5, 95.0, -93.5)
+[12:32:32] [Craft Scheduler Thread - 3 - ProjectKorra/INFO]: [ProjectKorra] Successfully loaded in all abilities!
+[12:32:53] [Server thread/INFO]: JaxxTheConqueror lost connection: Disconnected
+[12:32:53] [Server thread/INFO]: JaxxTheConqueror left the game
+[12:33:00] [Server thread/INFO]: Server Plugins (13):
+[12:33:00] [Server thread/INFO]: Bukkit Plugins:
+[12:33:00] [Server thread/INFO]:  - ArmorInteraction, DamageSplashesPK, Dragon, Hyperion, JedCore, PKConfigApi, ProjectAddons, ProjectKorra, ProtocolLib, Spirits
+[12:33:00] [Server thread/INFO]:  TorrentRedirection, Vulcan, Zephyrus

@@ -1,0 +1,109 @@
+Language: # Translate plugin messages here.
+  PermissionMessage: You have no permission to do it.
+  CanSeeMessage: You can see damage splashes now.
+  CantSeeMessage: You can't see damage splashes now.
+  ReloadMessage: DamageSplashesPK reloaded.
+  ToggleOnMessage: Now you can see damage splashes.
+  ToggleOffMessage: You can't see damage splashes now. Use "/dspk toggle" again to
+    toggle it back.
+Info:
+  ShownNumberFactor: 0.5 # When applying 20 pts. damage, splash will show the number 20*ShownNumberFactor.
+  SplashDuration: 1250 # How long splash exists
+Animations:
+  Appearance:
+    #
+    # This parameter determines how close damage splashes can approach you.
+    # The higher the damage dealt, the closer the splash of damage gets to you.
+    MinCloseness: 1.5
+    CloserCombatCloserSplashes: true # Splashes will spawn closer in melee, but it requires a little bit more computation.
+    Scatter: 1 # Adjust how far damage splashes can spread
+  #
+  # When you move your camera sideways, the damage spatter shifts slightly,
+  # trying to stay in the frame longer
+  CameraFollow:
+    Enabled: true
+    MaxRange: 1.5 # How far can the damage splash move while following the camera
+  Disappearance: # Damage splashes will visually decrease before disappearing
+    Enabled: true
+#
+# In the Color field use minecraft color name or hex code #RRGGBB. Hex Colors Generator: https://www.w3schools.com/colors/colors_hexadecimal.asp
+# In the Symbol field use any UTF-8 symbol you like and minecraft supports.
+Visuals:
+  Default:
+    Color: '#ffffff'
+    Symbol: ♥
+  Air:
+    Sound:
+      Color: '#3e4d52'
+      Symbol: ♥
+    Air:
+      Color: '#aaaaaa'
+      Symbol: ♥
+    Flight:
+      Color: '#dbf5ff'
+      Symbol: ♥
+    Spiritual:
+      Color: '#cab0ff'
+      Symbol: ♥
+  Water:
+    Water:
+      Color: '#55ffff'
+      Symbol: ♥
+    Blood:
+      Color: '#a30010'
+      Symbol: ♥
+    Healing:
+      Color: '#36d2e3'
+      Symbol: ♥
+    Ice:
+      Color: '#99f5ff'
+      Symbol: ♥
+    Plant:
+      Color: '#008048'
+      Symbol: ♥
+  Earth:
+    Earth:
+      Color: '#55ff55'
+      Symbol: ♥
+    Lava:
+      Color: '#c73800'
+      Symbol: ♥
+    Metal:
+      Color: '#c7c5c5'
+      Symbol: ♥
+    Sand:
+      Color: '#ffdc82'
+      Symbol: ♥
+  Fire:
+    Fire:
+      Color: '#ff5555'
+      Symbol: ♥
+    Lightning:
+      Color: '#820d0d'
+      Symbol: ♥
+    Combustion:
+      Color: '#690213'
+      Symbol: ♥
+    BlueFire:
+      Color: '#1ac5fd'
+      Symbol: ♥
+  Chi:
+    Chi:
+      Color: '#ffaa00'
+      Symbol: ♥
+  Spirit:
+    Spirit:
+      Color: '#00aaaa'
+      Symbol: ♥
+  Avatar:
+    Avatar:
+      Color: '#aa00aa'
+      Symbol: ♥
+  LightSpirit:
+    LightSpirit:
+      Color: '#55ffff'
+      Symbol: ♥
+  DarkSpirit:
+    DarkSpirit:
+      Color: '#5555ff'
+      Symbol: ♥
