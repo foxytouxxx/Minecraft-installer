@@ -1,0 +1,10 @@
+Combos:
+  Fire:
+    FlameRush:
+      Description: This combo creates an area of effect fire wave that will travel
+        in the direction you're looking.
+      Damage: 8
+      Cooldown: 10000
+      Range: 25
+      Speed: 1.3
+      CreateFlames: true

@@ -1,0 +1,23 @@
+Zephyrus:
+  Air:
+    AirBall:
+      Cooldown: 2000
+      Damage: 2.0
+      Range: 20.0
+      Radius: 0.4
+      Speed: 1.2
+    AirStrike:
+      Cooldown: 2000
+      Damage: 2.0
+      Range: 20.0
+      Radius: 0.4
+      Speed: 1.2
+      Shots: 4
+    SpiritualProjection:
+      Cooldown: 5000
+      Duration: 20000
+      Range: 50.0
+    AirPropulsion:
+      Cooldown: 2000
+      Duration: 4000
+      Speed: 1.2

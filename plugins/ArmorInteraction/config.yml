@@ -1,0 +1,38 @@
+Note: 'MaxPotential is used as a base for the algorithm. It adds up the total of the
+  highest armor power and uses that as the max potential power. Be sure when you add
+  up the totals of all pieces in an armor set.To check: Helmet + Chestplate + Leggings
+  + Boots = Total Armor Power. Example (Netherite armor): Helmet + Chestplate + Leggings
+  + Boots = 20'
+Note 2: The GlobalStrength variable is a means of having control over the armors strength
+  all at once. For example, by setting the GlobalStrength to 1 someone with full diamond
+  armor will not take any damage from a bending ability. It's set to 0.6 by default
+  so only 60 percent of the damage reduction actually takes place. This value should
+  not be more than 1 or less than 0 since it's on a percentage calculation where 1
+  = 100%, 0.5 = 50%, and 0 = 0%.
+MaxPotential: 20
+GlobalStrength: 0.6
+ArmorTypes:
+  LEATHER_HELMET: 1
+  LEATHER_CHESTPLATE: 3
+  LEATHER_LEGGINGS: 2
+  LEATHER_BOOTS: 1
+  GOLD_HELMET: 2
+  GOLD_CHESTPLATE: 5
+  GOLD_LEGGINGS: 3
+  GOLD_BOOTS: 1
+  CHAINMAIL_HELMET: 2
+  CHAINMAIL_CHESTPLATE: 5
+  CHAINMAIL_LEGGINGS: 4
+  CHAINMAIL_BOOTS: 1
+  IRON_HELMET: 2
+  IRON_CHESTPLATE: 6
+  IRON_LEGGINGS: 5
+  IRON_BOOTS: 2
+  DIAMOND_HELMET: 3
+  DIAMOND_CHESTPLATE: 8
+  DIAMOND_LEGGINGS: 6
+  DIAMOND_BOOTS: 3
+  NETHERITE_HELMET: 3
+  NETHERITE_CHESTPLATE: 8
+  NETHERITE_LEGGINGS: 6
+  NETHERITE_BOOTS: 3
