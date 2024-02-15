@@ -7,9 +7,76 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:bamboo_jungle": "2024-02-15 12:32:33 +0000"
+      "minecraft:beach": "2024-02-15 12:34:02 +0000",
+      "minecraft:forest": "2024-02-15 12:48:23 +0000",
+      "minecraft:sparse_jungle": "2024-02-15 12:44:44 +0000",
+      "minecraft:jungle": "2024-02-15 12:46:43 +0000",
+      "minecraft:lukewarm_ocean": "2024-02-15 12:34:12 +0000",
+      "minecraft:river": "2024-02-15 12:46:08 +0000",
+      "minecraft:bamboo_jungle": "2024-02-15 12:32:33 +0000",
+      "minecraft:plains": "2024-02-15 12:42:48 +0000"
     },
     "done": false
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2024-02-15 12:41:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2024-02-15 12:41:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_boat": {
+    "criteria": {
+      "in_water": "2024-02-15 12:41:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/bamboo_raft": {
+    "criteria": {
+      "in_water": "2024-02-15 12:41:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2024-02-15 12:41:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2024-02-15 12:41:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2024-02-15 12:41:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2024-02-15 12:41:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2024-02-15 12:41:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2024-02-15 12:55:18 +0000"
+    },
+    "done": true
   },
   "DataVersion": 3700
 }
